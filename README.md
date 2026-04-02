@@ -34,8 +34,6 @@ This repository contains tasks completed as part of the Codveda Data Analytics I
 * pandas
 * matplotlib
 * seaborn
-* numpy
-* scikit-learn
 
 ---
 
