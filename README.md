@@ -42,19 +42,27 @@ This repository contains tasks completed as part of the Codveda Data Analytics I
 ```
 codveda-data-analytics-internship/
 │
-├── data/
-│   ├── raw/
-│   │   └── stock_prices.csv
-│   └── cleaned/
-│       └── cleaned_stock_prices.csv
+├── Data/
+│   ├── stock_prices.csv
+│   ├── cleaned_stock_prices.csv
+│   ├── house_prediction.csv
+│   └── iris.csv
 │
-├── level1/
+├── Level1/
 │   ├── task1_data_cleaning.py
 │   ├── task3_visualization.py
-│   └── plots/
+│   └── Plots/
 │       ├── price_trend.png
 │       ├── monthly_avg_price.png
 │       └── open_vs_close.png
+│
+├── Level2/
+│   ├── task1_regression.py
+│   ├── task3_clustering.py
+│   └── Plots/
+│       ├── regression_plot.png
+│       ├── elbow_method.png
+│       └── iris_clusters.png
 │
 ├── README.md
 └── requirements.txt
