@@ -77,31 +77,31 @@ Output:
 
 ```
 codveda-data-analytics-internship/
-|
-|-- Data/
-|   |-- stock_prices.csv
-|   |-- cleaned_stock_prices.csv
-|   |-- house_Prediction_Data_Set.csv
-|   `-- iris.csv
-|
-|-- Level1/
-|   |-- task1_data_cleaning.py
-|   |-- task3_visualization.py
-|   `-- Plots/
-|       |-- price_trend.png
-|       |-- monthly_avg_price.png
-|       `-- open_vs_close.png
-|
-|-- Level2/
-|   |-- task1_regression.py
-|   |-- task3_clustering.py
-|   `-- Plots/
-|       |-- regression_plot.png
-|       |-- elbow_method.png
-|       `-- iris_clusters.png
-|
-|-- README.md
-`-- requirements.txt
+│
+├── Data/
+│   ├── stock_prices.csv
+│   ├── cleaned_stock_prices.csv
+│   ├── house_Prediction_Data_Set.csv
+│   └── iris.csv
+│
+├── Level1/
+│   ├── task1_data_cleaning.py
+│   ├── task3_visualization.py
+│   └── Plots/
+│       ├── price_trend.png
+│       ├── monthly_avg_price.png
+│       └── open_vs_close.png
+│
+├── Level2/
+│   ├── task1_regression.py
+│   ├── task3_clustering.py
+│   └── Plots/
+│       ├── regression_plot.png
+│       ├── elbow_method.png
+│       └── iris_clusters.png
+│
+├── README.md
+└── requirements.txt
 ```
 ## Visualizations of Plots folder
 
