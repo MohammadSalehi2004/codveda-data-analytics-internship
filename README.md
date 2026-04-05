@@ -45,7 +45,6 @@ codveda-data-analytics-internship/
 ├── Data/
 │   ├── stock_prices.csv
 │   ├── cleaned_stock_prices.csv
-│   ├── house_prediction.csv
 │   └── iris.csv
 │
 ├── Level1/
