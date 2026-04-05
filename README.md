@@ -11,7 +11,7 @@ This repository contains tasks completed as part of the Codveda Data Analytics I
 * Loaded raw dataset using pandas
 * Handled missing values (removal/imputation)
 * Removed duplicate records
-* Standardized inconsistent data formats (e.g., date formats)
+* Standardized inconsistent data formats
 * Exported cleaned dataset for further analysis
 
 ---
@@ -25,15 +25,50 @@ This repository contains tasks completed as part of the Codveda Data Analytics I
   * Scatter plots
 * Customized titles, labels, and legends
 * Exported plots as images for reporting
+Output:
+- price_trend.png  
+- monthly_avg_price.png  
+- open_vs_close.png
 
 ---
 
+## Level 2 Tasks
+
+### 🔹 Task 1: Regression Analysis
+
+* Used House Prediction dataset but the cells were all messed up so I had AI fix it(all the columns were in column A)
+* Performed data inspection and basic cleaning (handling missing values like level 1 task 1)
+* Split dataset into training 80% and testing 20% sets  
+* Applied Linear Regression using scikit-learn  
+* Evaluated model using:
+  * R^2 Score to find how well the model predicts
+  * Mean Squared Error (MSE) to find how well the model makes mistakes
+* Interpreted model coefficients
+* Visualized actual vs predicted values using a scatter plot
+
+Output:
+- regression_plot.png 
+
+### 🔹 Task 3: Clustering Analysis (K-Means)
+
+* Used Iris dataset  
+* Removed the last column called species since it was in text form and not numerical
+* Standardized features using StandardScaler  
+* Applied K-Means clustering
+* Set optimal number of clusters using the Elbow Method  
+* Visualized clusters using 2D scatter plot
+
+Output:
+- elbow_method.png  
+- iris_clusters.png  
+---
 ## Tools
 
 * Python
 * pandas
 * matplotlib
 * seaborn
+* scikit-learn
 
 ---
 
@@ -45,6 +80,7 @@ codveda-data-analytics-internship/
 ├── Data/
 │   ├── stock_prices.csv
 │   ├── cleaned_stock_prices.csv
+│   ├── house_Prediction_Data_Set.csv
 │   └── iris.csv
 │
 ├── Level1/
@@ -76,6 +112,17 @@ codveda-data-analytics-internship/
 
 ### Open vs Close Price
 ![Scatter Plot](Level1/Plots/open_vs_close.png)
+
+---
+
+### Regression Plot (Actual vs Predicted Prices)
+![Regression Plot](Level2/Plots/regression_plot.png)
+
+### Elbow Method (Optimal Clusters)
+![Elbow Method](Level2/Plots/elbow_method.png)
+
+### Iris Clusters Visualization
+![Iris Clusters](Level2/Plots/iris_clusters.png)
 ---
 
 ## How to Run the Project
@@ -98,20 +145,20 @@ Now install everything thats needed which is listed in the requirements text fil
 
 ## Dataset
 
-The dataset used in this project contains stock price data and is used for:
+The datasets used in this project include stock price data, house prediction data, and the iris dataset, and are used for:
 
 * Data cleaning and preprocessing
 * Trend analysis and visualization
-* It is provided inside the task folder for the internship
+* Regression analysis
+* Clustering analysis
+* They are provided inside the Data folder for the internship
+
 ---
 
 ## Reflection
 
-* Add more advanced visualizations
-* Perform regression analysis (Level 2)
-* Build predictive models
-* Create dashboards using Power BI or Tableau
-
+* For Level 1, I learned how to stregthen my skills regarding datsets by improving my understanding of handling missing values, formatting data, and presenting insights visually and how to plot and visualize graphs in a cleaner way.
+* In Level 2, I learned how to apply machine learning techniques such as Linear Regression and K-Means clustering in a more professional manner. I now gained experience in evaluating models using R² score and learned to use MSE and visualizing results to understand model performance.
 ---
 
 ## Author
