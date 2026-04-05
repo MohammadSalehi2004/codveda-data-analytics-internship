@@ -25,6 +25,7 @@ This repository contains tasks completed as part of the Codveda Data Analytics I
   * Scatter plots
 * Customized titles, labels, and legends
 * Exported plots as images for reporting
+
 Output:
 - price_trend.png  
 - monthly_avg_price.png  
@@ -138,6 +139,10 @@ git clone https://github.com/yourusername/codveda-data-analytics-internship.git
 ```
 Now install everything thats needed which is listed in the requirements text file.
 ```
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
 
 3. Run the codes inside each level folder so that it works
 
